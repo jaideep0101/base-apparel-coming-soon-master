@@ -1,0 +1,128 @@
+body{
+  width:100%;
+  height:auto;
+
+}
+.first-h, p
+{
+  color: hsl(0, 36%, 70%);
+}
+.first-h,.second-h
+{
+  letter-spacing: 10px;
+}
+.text
+{
+ background-image: url("images/bg-pattern-desktop.svg");
+  padding:4rem 6rem 0 8rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.title
+{
+  margin-top:7rem;
+}
+.first-h
+{
+  font-size: 60px;
+  font-weight: 300;
+}
+.second-h
+{
+  font-size: 60px;
+  font-weight: 700;
+}
+h1
+{
+  text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    margin:0;
+    color:hsl(0, 6%, 24%);
+}
+P{
+  margin-top:1rem;
+  font-size: 16px;
+}
+input
+{
+ 
+  margin-top:2rem;
+  height:3.5rem;
+  border-radius: 90px;
+  width:100%;
+  border: 1px solid hsl(0, 36%, 70%);
+  padding-left: 2rem;
+}
+input::placeholder
+{
+  color:hsl(0, 36%, 70%);
+  opacity: .5;
+}
+
+.flex-container
+{
+  display: flex;
+    position: relative;
+}
+.icon-error
+{
+  position: absolute;
+  right:7rem;
+  top:3rem;
+  visibility: hidden;
+}
+.btn
+{
+  width:6rem;
+  border-radius: 90px;
+  background-image: linear-gradient(hsl(0, 80%, 86%),hsl(0, 74%, 74%) );
+  height:3.5rem;
+  position: absolute;
+right: 0;
+  top:2rem;
+  border: 1px solid hsl(0, 80%, 86%);
+}
+.btn:hover{
+  border: 3px solid hsl(0, 80%, 86%);
+  background-image: linear-gradient(hsl(0, 80%, 86%) ,hsl(0, 80%, 86%) );
+}
+.hidden p
+{
+  margin:0;
+  padding:8px 30px;
+  color: hsl(0, 93%, 68%);
+  visibility: hidden;
+  opacity: .5;
+}
+@media (max-width:1200px)
+{
+  body
+  {
+width: 100%;
+height: auto;
+
+  }
+  .row
+  {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .title
+  {
+    margin-top:4rem;
+  }
+  .text{
+    padding:0 1rem;
+  }
+  .logo
+  {
+    position: absolute;
+    top:2rem;
+    left:2rem;
+  }
+ .hero-img
+{
+  margin-top: 5rem;
+}
+}
+
